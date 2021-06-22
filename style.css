@@ -1,0 +1,41 @@
+body {
+  background-color: #eee;
+}
+.tBody {
+  float: left;
+  width: auto;
+  height: auto;
+  border-radius: 7px;
+  border: 0.5px solid #198754;
+  border-bottom: 2px solid #198754;
+}
+.nameHeader {
+  float: left;
+  width: 205px;
+  height: 50px;
+  border-bottom: 1px solid #198754;
+}
+.nameSpan {
+  margin-top: -9px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.taskSpan {
+  margin-top: -9px;
+  font-size: 15px;
+}
+.tBody :hover {
+  background-color: #198754;
+}
+i {
+  margin-left: 20px;
+}
+.imput {
+  background-color: #eee;
+  border-color: #198754;
+  border-radius: 5px;
+}
+/* .dropZone {
+  flex-basis: 100%;
+  flex-grow: 1;
+} */
